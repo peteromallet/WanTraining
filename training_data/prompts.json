@@ -802,5 +802,29 @@
     "856986.jpg": {
         "prompt": "The rooster stands tall, the camera focuses on the front.",
         "negative_prompt": ""
+    },
+    "3127017.jpg": {
+        "prompt": "The woman moves forward, the camera follows her.",
+        "negative_prompt": ""
+    },
+    "2035509.jpg": {
+        "prompt": "He lifts her up, the camera focuses on their joyful expressions.",
+        "negative_prompt": ""
+    },
+    "3198157.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2795382.jpg": {
+        "prompt": "She turns around and raises a camera.",
+        "negative_prompt": ""
+    },
+    "6719109.jpg": {
+        "prompt": "The camera shifts focus from her profile to their faces.",
+        "negative_prompt": ""
+    },
+    "3048929.jpg": {
+        "prompt": "She runs with a slight forward lean; the camera maintains the same angle.",
+        "negative_prompt": ""
     }
 }
