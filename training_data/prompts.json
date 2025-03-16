@@ -1,0 +1,806 @@
+{
+    "2722910.jpg": {
+        "prompt": "3The camera shifts focus to the barbell, blurring the man in the foreground.2",
+        "negative_prompt": ""
+    },
+    "3209180.jpg": {
+        "prompt": "No difference.4",
+        "negative_prompt": ""
+    },
+    "4497682.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4153812.jpg": {
+        "prompt": "She smiles slightly, the camera tilts slightly upwards.",
+        "negative_prompt": ""
+    },
+    "4153808.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3709513.jpg": {
+        "prompt": "She looks up, holding a pen to her lips.",
+        "negative_prompt": ""
+    },
+    "3959704.jpg": {
+        "prompt": "She smiles subtly, tilts her head slightly.",
+        "negative_prompt": ""
+    },
+    "7205543.jpg": {
+        "prompt": "Boxes fall as a man interacts, camera captures the action.",
+        "negative_prompt": ""
+    },
+    "856027.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "855196.jpg": {
+        "prompt": "No difference",
+        "negative_prompt": ""
+    },
+    "1508216.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3191109.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1350924.jpg": {
+        "prompt": "An explosion occurs, debris flies into the air.",
+        "negative_prompt": ""
+    },
+    "3209858.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "854669.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2796077.jpg": {
+        "prompt": "The focus shifts to the foreground as the dog runs past.",
+        "negative_prompt": ""
+    },
+    "1908426.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2977210.jpg": {
+        "prompt": "She lifts one leg and extends her arm, the camera slightly tilts.",
+        "negative_prompt": ""
+    },
+    "3761095.jpg": {
+        "prompt": "No difference",
+        "negative_prompt": ""
+    },
+    "28542211.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4524598.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "5992452.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1826710.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4323285.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2795750.jpg": {
+        "prompt": "The hand gestures change, with a slight turn to the side.",
+        "negative_prompt": ""
+    },
+    "3201100.jpg": {
+        "prompt": "She makes a playful facial expression and gently touches the girl's chin.",
+        "negative_prompt": ""
+    },
+    "3677016.jpg": {
+        "prompt": "The camera shifts to a side view as he plays with the toys.",
+        "negative_prompt": ""
+    },
+    "6496862.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4253333.jpg": {
+        "prompt": "The focus shifts to the hand reaching towards the pan.",
+        "negative_prompt": ""
+    },
+    "4919748.jpg": {
+        "prompt": "She turns away, the camera follows her movement.",
+        "negative_prompt": ""
+    },
+    "2108628.jpg": {
+        "prompt": "The camera shifts to the right, showing traffic lights and approaching vehicles.",
+        "negative_prompt": ""
+    },
+    "3683312.jpg": {
+        "prompt": "The camera pans to the left as the boy rides his bike.",
+        "negative_prompt": ""
+    },
+    "5091624.jpg": {
+        "prompt": "The colors shift, and the elements seem to swirl.",
+        "negative_prompt": ""
+    },
+    "2370709.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "852250.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3209799.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "853848.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3569294.jpg": {
+        "prompt": "She raises her arms wide, looking into the distance.",
+        "negative_prompt": ""
+    },
+    "3120662.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "855587.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1250130.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "6892618.jpg": {
+        "prompt": "The arms are raised, and the head is tilted back.",
+        "negative_prompt": ""
+    },
+    "3781733.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3191898.jpg": {
+        "prompt": "Three runners ascend the stairs, viewed from behind.",
+        "negative_prompt": ""
+    },
+    "3209549.jpg": {
+        "prompt": "The camera follows her as she runs up the stairs.",
+        "negative_prompt": ""
+    },
+    "7702688.jpg": {
+        "prompt": "A piece of toast falls near the shoes.",
+        "negative_prompt": ""
+    },
+    "2715412.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3253803.jpg": {
+        "prompt": "Everyone raises their glasses in a toast, smiles and interacts.",
+        "negative_prompt": ""
+    },
+    "3115255.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "5138856.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4525902.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4052974.jpg": {
+        "prompt": "She smiles slightly while chopping tomatoes.",
+        "negative_prompt": ""
+    },
+    "3191290.jpg": {
+        "prompt": "The steak is being turned, the camera angles slightly change.",
+        "negative_prompt": ""
+    },
+    "3209663.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "8531896.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3700267.jpg": {
+        "prompt": "He runs towards the couch, the camera shifts to the right.",
+        "negative_prompt": ""
+    },
+    "4769549.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1575720.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "31073804.jpg": {
+        "prompt": "The camera shifts slightly, revealing more activity and movement in the scene.",
+        "negative_prompt": ""
+    },
+    "3191859.jpg": {
+        "prompt": "The camera shifts slightly, capturing the group from a different angle.",
+        "negative_prompt": ""
+    },
+    "4498965.jpg": {
+        "prompt": "She turns her head slightly, raises her hand.",
+        "negative_prompt": ""
+    },
+    "3147227.jpg": {
+        "prompt": "The camera zooms in slightly on the fireworks.",
+        "negative_prompt": ""
+    },
+    "3214527.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "857263.jpg": {
+        "prompt": "The camera transitions from a dark street view to a vibrant cityscape at dusk.",
+        "negative_prompt": ""
+    },
+    "1582317.jpg": {
+        "prompt": "The waves crash violently, foam splashes upwards.",
+        "negative_prompt": ""
+    },
+    "6389054.jpg": {
+        "prompt": "He prepares to jump onto the box, slightly closer to it.",
+        "negative_prompt": ""
+    },
+    "4769626.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "6399900.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3325982.jpg": {
+        "prompt": "The camera focuses as a candle is lit.",
+        "negative_prompt": ""
+    },
+    "3044805.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3129424.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1580509.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4057920.jpg": {
+        "prompt": "The wooden spoon stirs the tomatoes.",
+        "negative_prompt": ""
+    },
+    "9354609.jpg": {
+        "prompt": "The dust moves down the slope, slightly closer view of the cliff.",
+        "negative_prompt": ""
+    },
+    "3044455.jpg": {
+        "prompt": "The smoke swirls around her, creating a mystical atmosphere.",
+        "negative_prompt": ""
+    },
+    "2908575.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2785536.jpg": {
+        "prompt": "She jumps rope, hair moves with the motion.",
+        "negative_prompt": ""
+    },
+    "852415.jpg": {
+        "prompt": "She smiles and looks to the side.",
+        "negative_prompt": ""
+    },
+    "3064025.jpg": {
+        "prompt": "The viewpoint shifts slightly to the right.",
+        "negative_prompt": ""
+    },
+    "4100350.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1943488.jpg": {
+        "prompt": "She smiles gently, the camera focuses on her face.",
+        "negative_prompt": ""
+    },
+    "3298229.jpg": {
+        "prompt": "The hand reaches in to add greens to the bowl.",
+        "negative_prompt": ""
+    },
+    "2836305.jpg": {
+        "prompt": "The camera shifts slightly, revealing more of the scene with children moving through the fountains.",
+        "negative_prompt": ""
+    },
+    "1908423.jpg": {
+        "prompt": "The girl leans closer, blowing into the party horn.",
+        "negative_prompt": ""
+    },
+    "3188954.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4553203.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3785344.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3015484.jpg": {
+        "prompt": "The focus shifts from an unclear surface to a woman walking in a setting.",
+        "negative_prompt": ""
+    },
+    "3116513.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "10235359.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3256852.jpg": {
+        "prompt": "He laughs heartily, looking towards a friend.",
+        "negative_prompt": ""
+    },
+    "8056102.jpg": {
+        "prompt": "The hand reaches closer, fingers spread.",
+        "negative_prompt": ""
+    },
+    "2587224.jpg": {
+        "prompt": "The child's expression shifts to concentration, focusing on the object in her hand.",
+        "negative_prompt": ""
+    },
+    "6040646.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3682208.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "5451399.jpg": {
+        "prompt": "The fireworks burst, revealing vibrant colors.",
+        "negative_prompt": ""
+    },
+    "4107560.jpg": {
+        "prompt": "The man turns to the woman, and she looks back at him.",
+        "negative_prompt": ""
+    },
+    "4429804.jpg": {
+        "prompt": "The road curves to the right.",
+        "negative_prompt": ""
+    },
+    "3677395.jpg": {
+        "prompt": "No difference",
+        "negative_prompt": ""
+    },
+    "31130027.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1899146.jpg": {
+        "prompt": "The man lifts a bottle to drink, the camera focuses on his action.",
+        "negative_prompt": ""
+    },
+    "4100354.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1717998.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "2675515.jpg": {
+        "prompt": "The person on the left pours from a kettle, while the person on the right extends a cup.",
+        "negative_prompt": ""
+    },
+    "854058.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2927943.jpg": {
+        "prompt": "The women move closer together, one extends her arm forward.",
+        "negative_prompt": ""
+    },
+    "3326928.jpg": {
+        "prompt": "She walks towards the water, the camera follows her.",
+        "negative_prompt": ""
+    },
+    "7123970.jpg": {
+        "prompt": "She touches her ear, hands appear from the sides.",
+        "negative_prompt": ""
+    },
+    "3127074.jpg": {
+        "prompt": "The perspective shifts to a wider view, revealing her twirling in the field.",
+        "negative_prompt": ""
+    },
+    "4153809.jpg": {
+        "prompt": "She raises her arms, enhancing the expression.",
+        "negative_prompt": ""
+    },
+    "6754827.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "4873113.jpg": {
+        "prompt": "He covers his face with his hands, showing frustration.",
+        "negative_prompt": ""
+    },
+    "3760750.jpg": {
+        "prompt": "The woman serves food onto a plate, while another hand reaches for salad.",
+        "negative_prompt": ""
+    },
+    "9861597.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "9563512.jpg": {
+        "prompt": "A man walks away from the camera.",
+        "negative_prompt": ""
+    },
+    "3209300.jpg": {
+        "prompt": "No difference",
+        "negative_prompt": ""
+    },
+    "6281208.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "6520289.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3402765.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3676820.jpg": {
+        "prompt": "A hand reaches in to grab a toy, with a focus on the action.",
+        "negative_prompt": ""
+    },
+    "4761432.jpg": {
+        "prompt": "The man continues to jump rope, the camera shifts slightly to the right.",
+        "negative_prompt": ""
+    },
+    "1879456.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3188956.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3402883.jpg": {
+        "prompt": "She turns her head, lightly touches her neck.",
+        "negative_prompt": ""
+    },
+    "4091670.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4841885.jpg": {
+        "prompt": "He shifts position slightly, maintaining movement.",
+        "negative_prompt": ""
+    },
+    "5199636.jpg": {
+        "prompt": "She smiles wider and laughs, the camera captures a slight angle.",
+        "negative_prompt": ""
+    },
+    "4100356.jpg": {
+        "prompt": "He shifts gaze to the side, maintains neutral expression.",
+        "negative_prompt": ""
+    },
+    "3253110.jpg": {
+        "prompt": "Hands come together in the center, smiles are exchanged.",
+        "negative_prompt": ""
+    },
+    "9208700.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4496580.jpg": {
+        "prompt": "The finger moves to the screen, a slight change in focus.",
+        "negative_prompt": ""
+    },
+    "2795173.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "3182034.jpg": {
+        "prompt": "She wipes her forehead with a cotton pad, hand moves towards the face.",
+        "negative_prompt": ""
+    },
+    "9210108.jpg": {
+        "prompt": "The camera shifts to focus on a hand reaching for the decanter.",
+        "negative_prompt": ""
+    },
+    "3653287.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "854123.jpg": {
+        "prompt": "The man looks down at the laptop, then glances to the side.",
+        "negative_prompt": ""
+    },
+    "3196004.jpg": {
+        "prompt": "The sauce is poured into the pan.",
+        "negative_prompt": ""
+    },
+    "1484703.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "10284254.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4436187.jpg": {
+        "prompt": "No difference",
+        "negative_prompt": ""
+    },
+    "7280180.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "9354645.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1722967.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2121092.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3191933.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "2076483.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3201085.jpg": {
+        "prompt": "He jumps higher, the camera tracks upward.",
+        "negative_prompt": ""
+    },
+    "3761460.jpg": {
+        "prompt": "He tilts his head and looks up.",
+        "negative_prompt": ""
+    },
+    "854429.jpg": {
+        "prompt": "Some dancers jump and engage, while others continue to play music.",
+        "negative_prompt": ""
+    },
+    "4500715.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4231752.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4017062.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3201253.jpg": {
+        "prompt": "A girl walks in the background.",
+        "negative_prompt": ""
+    },
+    "3196096.jpg": {
+        "prompt": "The child goes from standing to crawling.",
+        "negative_prompt": ""
+    },
+    "4100340.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "5717015.jpg": {
+        "prompt": "She appears to be in distress, rubbing her forehead.",
+        "negative_prompt": ""
+    },
+    "4440942.jpg": {
+        "prompt": "The subject transitions from a walk to a run, the camera follows closely.",
+        "negative_prompt": ""
+    },
+    "2908570.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "3048880.jpg": {
+        "prompt": "She smiles and has her hair flowing, the camera remains steady.",
+        "negative_prompt": ""
+    },
+    "3191808.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3402555.jpg": {
+        "prompt": "She turns her head to the side, with a thoughtful expression.",
+        "negative_prompt": ""
+    },
+    "3202048.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3196603.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "29094817.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3044160.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1538130.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "7299607.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4254118.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3015482.jpg": {
+        "prompt": "A person is seen running through the dunes.",
+        "negative_prompt": ""
+    },
+    "3403453.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "4055404.jpg": {
+        "prompt": "The book is flipped open, revealing pages.",
+        "negative_prompt": ""
+    },
+    "3831835.jpg": {
+        "prompt": "A sparkler is ignited, smoke rises.",
+        "negative_prompt": ""
+    },
+    "2022395.jpg": {
+        "prompt": "The lighting shifts to a mix of blue and pink, hands are raised in celebration.",
+        "negative_prompt": ""
+    },
+    "3617005.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "31131226.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1933732.jpg": {
+        "prompt": "The camera shifts focus slightly and the subject turns towards the camera.",
+        "negative_prompt": ""
+    },
+    "7205585.jpg": {
+        "prompt": "Boxes are being thrown down, a man appears and looks frustrated.",
+        "negative_prompt": ""
+    },
+    "853822.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "3433955.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "3972390.jpg": {
+        "prompt": "The camera focuses as he brings an egg closer to his eye.",
+        "negative_prompt": ""
+    },
+    "3199978.jpg": {
+        "prompt": "The fireworks burst and explode with more intensity and variety.",
+        "negative_prompt": ""
+    },
+    "1582318.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3192257.jpg": {
+        "prompt": "The bell pepper is being sliced, showing the cut piece.",
+        "negative_prompt": ""
+    },
+    "6057470.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "6191838.jpg": {
+        "prompt": "A container spills colorful pills onto the surface.",
+        "negative_prompt": ""
+    },
+    "6520279.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "1721277.jpg": {
+        "prompt": "The child walks closer to the adult, the camera shifts to follow.",
+        "negative_prompt": ""
+    },
+    "854262.jpg": {
+        "prompt": "The perspective shifts closer to the smoke and explosion.",
+        "negative_prompt": ""
+    },
+    "2181400.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1858314.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "7135106.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "3683304.jpg": {
+        "prompt": "The bike is seen from a slightly different angle, with the boy looking towards the camera.",
+        "negative_prompt": ""
+    },
+    "855448.jpg": {
+        "prompt": "The boy hangs in the air, body position changes.",
+        "negative_prompt": ""
+    },
+    "856186.jpg": {
+        "prompt": "no difference",
+        "negative_prompt": ""
+    },
+    "13123269.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1851768.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "1093665.jpg": {
+        "prompt": "No difference.",
+        "negative_prompt": ""
+    },
+    "7297852.jpg": {
+        "prompt": "The hand adjusts the leg as it is touched.",
+        "negative_prompt": ""
+    },
+    "30768986.jpg": {
+        "prompt": "The camera tilts slightly to the left, revealing more ruins.",
+        "negative_prompt": ""
+    },
+    "5921006.jpg": {
+        "prompt": "The focus shifts to the man\u2019s hand reaching for the decanter.",
+        "negative_prompt": ""
+    },
+    "856986.jpg": {
+        "prompt": "The rooster stands tall, the camera focuses on the front.",
+        "negative_prompt": ""
+    }
+}

@@ -24,11 +24,31 @@ from wan.utils.fm_solvers_unipc import FlowUniPCMultistepScheduler
 from wan.utils.utils import cache_video
 
 import decord
+import PIL.Image
+from PIL import Image
+import numpy as np
 decord.bridge.set_bridge('torch')
 
 
+def save_image(tensor, save_file):
+    # Convert tensor to image and save
+    image = tensor.cpu().float().numpy()  # (C, H, W)
+    
+    # Scale from [-1,1] to [0,255]
+    image = (image + 1) * 127.5
+    image = np.clip(image, 0, 255).astype(np.uint8)
+    
+    # Convert from (C, H, W) to (H, W, C)
+    image = image.transpose(1, 2, 0)
+    
+    # Save as PNG
+    Image.fromarray(image).save(save_file)
+
 @torch.inference_mode()
 def main(args):
+    if args.control_image is not None and args.frames != 1:
+        raise ValueError("When using control_image, frames must be set to 1")
+    
     date_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     real_output_dir = os.path.join(args.output_dir, date_time)
     os.makedirs(real_output_dir, exist_ok=True)
@@ -106,10 +126,10 @@ def main(args):
     scheduler = FlowUniPCMultistepScheduler(num_train_timesteps=1000, shift=1, use_dynamic_shifting=False)
     scheduler.set_timesteps(args.steps, device=device, shift=args.shift)
     
-    if args.control_video is not None:
-        vr = decord.VideoReader(args.control_video)
-        control_pixels = vr[:frames]
-        control_pixels = control_pixels.movedim(3, 1).unsqueeze(0) # FHWC -> FCHW -> BFCHW
+    if args.control_image is not None:
+        # Load and process control image instead of video
+        control_image = Image.open(args.control_image).convert('RGB')
+        control_pixels = v2.ToTensor()(control_image)[None] # Add batch dimension
         
         transform = v2.Compose([
             v2.ToDtype(torch.float32, scale=True),
@@ -120,7 +140,10 @@ def main(args):
         
         control_pixels = transform(control_pixels) * 2 - 1
         control_pixels = torch.clamp(torch.nan_to_num(control_pixels), min=-1, max=1)
-        control_pixels = control_pixels[0].movedim(0, 1) # BFCHW -> FCHW -> CFHW
+        
+        # Reshape single image to match expected dimensions (CFHW)
+        control_pixels = control_pixels.repeat(1, frames, 1, 1)
+        control_pixels = control_pixels[0].movedim(0, 1)
         
         control_latents = vae.encode([control_pixels.to(dtype=torch.bfloat16, device=device)])[0].to(device)
         assert control_latents.shape == latents.shape, f"{control_latents.shape} {latents.shape}"
@@ -163,19 +186,27 @@ def main(args):
         
         decoded_video = torch.cat([control_pixels, decoded_video], dim=cat_dim)
         
-        cache_video(
-            tensor = decoded_video[None],
-            save_file = os.path.join(real_output_dir, "test.mp4"),
-            fps = 16,
-            nrow = 1,
-            normalize = True,
-            value_range = (-1, 1),
-        )
+        # Save as image instead of video for single frame
+        if args.frames == 1:
+            decoded_image = decoded_video[0].cpu()  # Remove time dimension
+            save_image(
+                tensor=decoded_image,
+                save_file=os.path.join(real_output_dir, "result.png")
+            )
+        else:
+            cache_video(
+                tensor=decoded_video[None],
+                save_file=os.path.join(real_output_dir, "test.mp4"),
+                fps=16,
+                nrow=1,
+                normalize=True,
+                value_range=(-1, 1),
+            )
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description = "HunyuanVideo training script",
+        description = "Image-to-Image training script",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(
@@ -259,21 +290,20 @@ def parse_args():
     parser.add_argument(
         "--frames",
         type = int,
-        default = 33,
-        help = "Generated frames",
+        default = 1,
+        help = "Generated frames (typically 1 for image generation)",
     )
     parser.add_argument(
-        "--control_video",
+        "--control_image",
         type = str,
         default = None,
-        help = "Control signal video to use if lora is a control lora",
+        help = "Control signal image to use if lora is a control lora",
     )
     parser.add_argument(
-        "--control_preprocess",
+        "--target_image",
         type = str,
-        default = "tile",
-        choices=["tile",],
-        help = "Additional preprocessing to apply to control video, tile = blurred video for upscaling",
+        default = None,
+        help = "Target image to generate",
     )
     
     args = parser.parse_args()
